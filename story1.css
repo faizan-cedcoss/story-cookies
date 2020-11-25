@@ -1,0 +1,33 @@
+#s1{
+			background-color: #FFB71E;
+
+		}
+		.upper{
+			width: 80%;
+			margin-top: 50px;
+			margin-bottom: 25px;
+			background-color: white;
+			margin: auto;
+			text-align: center;
+			padding-top: 2%;
+			padding-bottom: 2%;
+			border-radius: 25px;
+
+		}
+		.middle{
+			height: 25px;
+		}
+		
+		.lower{
+			width: 80%;
+			
+			background-color: #FFF0D0;
+			text-align: center;
+			
+			padding-bottom: 5%;
+			margin: auto;
+			border-radius: 25px;
+			font-size: 26px;
+
+		}
+		

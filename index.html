@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Index
+	</title>
+	<style>
+		#s1{
+			background-color: #FFB71E;
+
+		}
+		.upper{
+			width: 80%;
+			margin-top: 50px;
+			margin-bottom: 25px;
+			background-color: white;
+			margin: auto;
+			text-align: center;
+			padding-top: 2%;
+			padding-bottom: 2%;
+			border-radius: 25px;
+
+		}
+		.middle{
+			height: 25px;
+		}
+		
+		.lower{
+			width: 80%;
+			
+			background-color: #FFF0D0;
+			text-align: center;
+			padding-top: 5%;
+			padding-bottom: 5%;
+			margin: auto;
+			border-radius: 25px;
+			font-size: 26px;
+			/*padding-left: 5%;
+			padding-right: 5%*/;
+		}
+		.label-style{
+			font-size: 26px;
+		}
+		.input-style{
+			padding: 5px;
+			margin: 5px;
+			border-radius: 10px;
+			font-size: 20px;
+
+		}
+		.button-style{
+			font-size: 20px;
+		}
+	</style>
+	
+</head>
+<body>
+	<section id="s1">
+		<div class="middle">
+			
+		</div>
+		<div class="container upper">
+			<img src="logo-form1.png" style="width: 300px;height: 150px">
+		</div>
+		<div class="middle">
+			
+		</div>
+		<div class="lower">
+			<p style="border-bottom: 2px solid black;font-size: 50px; padding-bottom: 50px;font-weight: 600">Complete the Form - <br>
+			Complete the Story!</h1>
+			<form name="form1" style="margin-top: 30px" action="story1.html" method="get">
+					<label class="label-style">Animal:</label>
+					<input class="input-style" type="text" id="a1" placeholder="tiger"><br>
+					<label class="label-style">Another Animal:</label>
+					<input class="input-style" type="text" id="a2" placeholder="lion"><br>
+					<label class="label-style">One More Animal:</label>
+					<input class="input-style" type="text" id="a3" placeholder="dog"><br>
+					<label class="label-style">Adjective(past tense):</label>
+					<input class="input-style" type="text" id="adj" placeholder="slammed"><br>
+					<label class="label-style">Verb(ends in -ing):</label>
+					<input class="input-style" type="text" id="verb" placeholder="running"><br>
+					<label class="label-style">Number</label>
+					<input class="input-style" type="Number" id="no" placeholder="2"><br>
+					<label class="label-style" >Yes or No: &emsp;</label>
+					<input type="radio" name="ans" id="yes" value="Yes" onclick="abc(this.value)">Yes
+					<input type="radio" name="ans" id="nope" value="No" onclick="abc(this.value)">No<br>
+					<!-- <input class="input-style" type="radio"  id="ans" value="Yes" onclick="abc(this.value)" >Yes 
+					<input class="input-style" type="radio" id="ans1" value="No" onclick="abc(this.value)">No<br> -->
+					<input type="text" class="input-style" id="result"><br>
+					<label class="label-style">Relative speed ends(in -er)</label>
+					<br>
+					
+					<select id="speed" class="input-style">
+					<option >Quicker</option>
+					<option >Slower</option>
+					</select><br>
+					<label class="label-style">Motivational Quote:</label>
+					<input class="input-style" type="text" id="quote" placeholder="Example"><br>
+					<label class="label-style">Meaningful Message</label>
+					<br>
+					<input type="text" style="width: 40%;overflow: hidden;border: 4px solid #7D96C9;margin-top: 10px;border-radius: 5px;height: 200px"  placeholder="This is a meaningful message" id="msg" ><br>
+					<button class="button-style" id="print" onclick="setCookies1()" style="background-color: #7D96C9">
+						Form my Story!
+					</button>
+					<br>
+
+				</form>
+		</div>
+		<div class="container middle">
+			
+		</div>
+	</section>
+<script src="story1.js"></script>
+</body>
+</html>
